@@ -73,7 +73,7 @@ export default function Header() {
           <Link href="/contact" onClick={() => setIsOpen(false)} className={pathname === '/contact' ? 'text-[#FE7F2D]' : 'text-[#0e8178]'}>Contact</Link>
           <button 
             onClick={() => { scrollToSection('contact'); setIsOpen(false); }}
-            className="bg-[#FE7F2D] text-white px-5 py-3 rounded-md w-full"
+            className="bg-[#ee7525] text-white px-5 py-3 rounded-md w-full"
           >
             Speak with Us
           </button>
