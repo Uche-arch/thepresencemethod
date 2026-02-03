@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   /* Use currentColor so it automatically matches the text color (gray-500) */
   color: currentColor !important;
   
-  margin-left: -10px; /* Pulls it closer to the text for a pro look */
+  margin-left: -6px; /* Pulls it closer to the text for a pro look */
   opacity: 0.7;
   
   /* Forces the cursor to stay thin regardless of the font-weight of the H1 */

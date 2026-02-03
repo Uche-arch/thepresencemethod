@@ -2,7 +2,7 @@ export default function CompanyValues() {
   const items = [
     {
       title: "Our Mission",
-      description: "Helping high-functioning adults reduce mental noise, regain focus and execute consistentlt by building presence as a praticial productivity skill."
+      description: "Helping high-functioning adults reduce mental noise, regain focus and execute consistently by building presence as a practical productivity skill."
     },
     {
       title: "Our Vision",
@@ -15,12 +15,19 @@ export default function CompanyValues() {
   ];
 
   return (
-    <section className="w-full py-20 px-6">
+    <section className="w-full py-20 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-16">
           
           {items.map((item, index) => (
-            <div key={index} className="flex-1 flex flex-col items-start">
+            <div 
+              key={index} 
+              className="flex-1 flex flex-col items-start"
+              /* THE BEST: Staggered reveal for the three pillars of the company */ 
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
+              data-aos-duration="1000"
+            >
               {/* 1. Header with an accent line */}
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-8 h-[2px] bg-blue-600"></div>

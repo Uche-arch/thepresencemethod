@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#f7fcec] sticky top-0 z-50 mb-[-30px] border-b border-[#0e8178]/5">
+    <header className="bg-[#f7fcec] sticky top-0 z-50 md:mb-[-30px] mb-[-15px] border-b border-[#0e8178]/5">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* 1. Logo */}

@@ -1,4 +1,11 @@
 // app/layout.js
+
+"use client";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Don't forget the CSS!
+
+
 import { Montserrat, Inter } from 'next/font/google';
 import "./globals.css"; // Ensure your Tailwind directives are here
 import Header from "./components/header"
@@ -17,12 +24,24 @@ const inter = Inter({
   weight: ['400', '500', '600'],
   variable: '--font-inter',
 });
-export const metadata = {
-  title: "The Presence Method",
-  description: "Digital Clarity. Emotional Regulation. Productive Living.",
-};
+// export const metadata = {
+//   title: "The Presence Method",
+//   description: "Digital Clarity. Emotional Regulation. Productive Living.",
+// };
 
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 900,     // Transition speed (900ms is smooth/premium)
+      once: true,        // Animation happens only once
+      easing: 'ease-in-out', 
+      offset: 100,       // Start animation 100px before the element hits the viewport
+    });
+  }, []);
+
+
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${inter.variable} antialiased flex flex-col min-h-screen`}>
