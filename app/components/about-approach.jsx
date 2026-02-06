@@ -34,6 +34,7 @@ export default function OurApproach() {
             
             <img 
               loading="lazy"
+              
               src="/about-presence.jpg" 
               alt="Nervous system regulation for high-level focus - The Presence Method" 
               className="w-full h-[400px] md:h-[500px] object-cover rounded-2xl"

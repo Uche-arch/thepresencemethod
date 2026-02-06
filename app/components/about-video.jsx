@@ -13,6 +13,7 @@ export default function VideoSection() {
             <>
               {/* REMOVED "/public" FROM PATH */}
               <img 
+              loading='lazy'
                 src="/mockup_starter_guide.png" 
                 alt="Video Thumbnail" 
                 className="w-full h-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-105"
@@ -36,7 +37,7 @@ export default function VideoSection() {
                   The Productivity Advantage
                 </h3>
                 <p className="text-white/80 text-sm md:text-base font-medium tracking-wide">
-                  3:15 MINS • FROM NOISE TO EXECUTION
+                  2:02 MINS • FROM NOISE TO EXECUTION
                 </p>
               </div>
             </>
@@ -46,7 +47,7 @@ export default function VideoSection() {
               className="w-full h-full"
               controls
               autoPlay
-              src="/20251031_155103.mp4" // REMOVED "/public" FROM PATH
+              src="/tpm-video.mp4" // REMOVED "/public" FROM PATH
             >
               Your browser does not support the video tag.
             </video>

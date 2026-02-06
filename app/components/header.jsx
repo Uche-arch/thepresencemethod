@@ -57,6 +57,7 @@ export default function Header() {
         <button 
           className="md:hidden p-2 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="Menu"
         >
           <div className="space-y-1.5">
             <span className={`block w-6 h-0.5 bg-[#0e8178] transition ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
