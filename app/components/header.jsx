@@ -26,17 +26,18 @@ export default function Header() {
 
   return (
     <header className="bg-[#f7fcec] sticky top-0 z-50 md:mb-[-30px] mb-[-15px] border-b border-[#0e8178]/5">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         
         {/* 1. Logo */}
-        <div className="text-2xl font-bold tracking-tight text-[#0e8178]">
+        <div className="">
           <Link href="/">
-            <h3>TPM</h3>
+            {/* <h3>TPM</h3> */}
+            <img src="/logo-tpm-1.png" alt="TPM Logo" className="w-[87%] h-[87%] md:w-[100%] md:h-[100%]"/>
           </Link>
         </div>
 
         {/* 2. Desktop Links */}
-        <div className="hidden md:flex items-center gap-8 md:ml-30">
+        <div className="hidden md:flex items-center gap-8 md:ml-23">
           <Link href="/" className={getLinkStyles('/')}>Home</Link>
           <Link href="/about" className={getLinkStyles('/about')}>About</Link>
           <Link href="/contact" className={getLinkStyles('/contact')}>Contact</Link>

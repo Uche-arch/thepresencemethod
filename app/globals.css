@@ -30,3 +30,22 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 html {
   scroll-behavior: smooth;
 }
+
+.ProseMirror {
+  outline: none;
+}
+
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.ProseMirror h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ProseMirror h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+

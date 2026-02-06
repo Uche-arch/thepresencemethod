@@ -33,9 +33,10 @@ export default function OurApproach() {
             <div className="absolute -inset-4 rounded-3xl -z-10 transition-colors duration-500"></div>
             
             <img 
-              src="/high-angle-woman-laying-mat.jpg" 
-              alt="Our collaborative approach" 
-              className="w-full h-[400px] md:h-[500px] object-cover rounded-2xl shadow-xl transition-transform duration-700 group-hover:scale-[1.02]"
+              loading="lazy"
+              src="/about-presence.jpg" 
+              alt="Nervous system regulation for high-level focus - The Presence Method" 
+              className="w-full h-[400px] md:h-[500px] object-cover rounded-2xl"
             />
           </div>
         </div>

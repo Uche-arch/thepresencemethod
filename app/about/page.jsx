@@ -7,6 +7,11 @@ import FAQSection from "../components/about-accordion";
 import SpeakWithUs from "../components/showcase-contact";
 // Import other components as we build them...
 
+export const metadata = {
+  title: "About Us | The Presence Method Story",
+  description: "We are on a mission to reclaim focused action. Founded in 2024, TPM builds systems that empower people through internal stability and sustainable habits.",
+};
+
 export default function AboutPage() {
   return (
     <main>

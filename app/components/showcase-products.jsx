@@ -27,14 +27,14 @@ export default function FeaturedProducts() {
           >
             <div className="w-full aspect-video rounded-3xl overflow-hidden mb-6 bg-gray-100 border border-gray-100 shadow-sm">
               <a 
-                href="https://selar.co/your-product-link" 
+                href="https://selar.com/a0bj610m22" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full h-full"
               >
                 <img 
                   src="/mockup_starter_guide.png" 
-                  alt="Product One" 
+                  alt="The Presence Method 2026 Starter Guide - Focus and Execution Reset" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 cursor-pointer"
                 />
               </a>

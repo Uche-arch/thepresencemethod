@@ -6,6 +6,12 @@ import FeaturedProducts from "./components/showcase-products";
 import ContentSection from "./components/showcase-heart";
 import SpeakWithUs from "./components/showcase-contact";
 
+export const metadata = {
+  title: "The Presence Method | Presence-Based Productivity",
+  description: "Reduce mental noise and execute consistently. The Presence Method helps high-functioning adults build focus as a practical productivity skill.",
+  keywords: ["Presence Method", "Productivity for high-performers", "Mental noise reduction", "Focus boundaries", "Sustainable productivity"],
+};
+
 export default function Home() {
   return (
     <>

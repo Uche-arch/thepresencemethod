@@ -44,9 +44,23 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
           <p className="font-medium text-lg">Join the Presence Circle online</p>
           <div className="flex gap-4">
-            <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer transition">𝕏</div>
-            <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer transition">f</div>
-            <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer transition">in</div>
+            <a 
+  href="https://www.instagram.com/victoria.presencemethod?igsh=dXd0M3F2ZXhjYWRi" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer transition"
+>
+  <i className="fa-brands fa-instagram"></i>
+</a>
+
+<a 
+  href="https://www.facebook.com/victoria.asuquo.3152" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer transition"
+>
+  <i className="fa-brands fa-facebook"></i>
+</a>
           </div>
         </div>
 
